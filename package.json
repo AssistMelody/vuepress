@@ -9,5 +9,13 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "vuepress": "^1.4.1",
+    "vuepress-theme-reco": "^1.4.4",
+    "@vuepress-reco/vuepress-plugin-bgm-player": "^1.1.2",
+    "@vuepress/plugin-nprogress": "^1.4.0",
+    "vuepress-plugin-reading-progress": "^1.0.8",
+    "vuepress-plugin-code-copy": "^1.0.6"
+  }
 }
