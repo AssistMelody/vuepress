@@ -1,7 +1,7 @@
 /*
  * @Author: shenyuan
  * @Date: 2020-04-18 18:30:34
- * @LastEditTime: 2020-11-02 14:06:20
+ * @LastEditTime: 2020-11-02 14:16:14
  * @Description: 配置文件
  */
 
@@ -23,6 +23,8 @@ module.exports = {
         'about2',
     ],
     repo: 'AssistMelody/vuepress',
+    docsRepo: 'AssistMelody/vuepress',
+    docsDir: 'docs',
     lastUpdated: '更新时间',
   },
 };
