@@ -5,9 +5,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.0.5",
+    "vuepress": "^1.4.1"
+  },
+  "devDependencies": {
+    "vuepress-plugin-demo-container": "^0.2.0"
+  }
 }
