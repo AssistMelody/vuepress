@@ -23,11 +23,11 @@ module.exports = {
       '/android/':getAndroidSidebar()
     },
     smoothScroll: true,
-    docsRepo: 'AssistMelody/vuepress',
-    editLinks: true,
+    repo: 'AssistMelody/vuepress',
     docsDir: 'docs',
+    editLinks: true,
+    editLinkText: '编辑此页',
     lastUpdated: '更新时间',
-    editLinkText: '编辑此页'
   },
   plugins: ['demo-container']
 };
